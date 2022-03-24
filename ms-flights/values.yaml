@@ -57,6 +57,7 @@ ingress:
     - host: flightsvc.com
       paths:
         - path: "/flights"
+          pathType: Prefix
     # - host: chart-example.local
     #   paths:
     #     - path: /
